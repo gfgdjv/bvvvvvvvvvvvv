@@ -11,6 +11,7 @@ body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
     padding: 20px;
+    background-color: aliceblue;
 }
 
 ul {
@@ -41,7 +42,7 @@ ul>li {
     justify-content: space-between;
     overflow: hidden;
     border-radius: 3px;
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.514);
+    box-shadow: 0px 0px 5px rgba(86, 88, 148, 0.514);
     flex-basis: 450px;
 }
 
@@ -52,22 +53,22 @@ ul>li {
     outline: none;
     font-size: 20px;
     flex: 1 1 450px;
-    background-color: rgb(255, 250, 244);
+    background-color: rgb(246, 244, 255);
 }
 
 /* Плейсхолдер */
 #taskInput::placeholder {
-    color: rgba(128, 128, 128, 0.384);
+    color: rgba(124, 105, 171, 0.384);
 }
 
 /* Кнопка добавления задачи */
 #addBtn {
     min-height: 50px;
     min-width: 50px;
-    color: rgb(255, 122, 140);
+    color: rgb(122, 168, 255);
     font-size: 25px;
-    background-color: rgb(255, 219, 233);
-    border-color: rgb(252, 126, 147);
+    background-color: rgb(219, 232, 255);
+    border-color: rgb(126, 168, 252);
     cursor: pointer;
 
 }
@@ -86,8 +87,8 @@ ul>li {
     justify-content: space-between;
     margin-bottom: 10px;
     border-radius: 3px;
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.514);
-    background-color: white;
+    box-shadow: 0px 0px 5px rgba(27, 56, 73, 0.514);
+    background-color: rgb(228, 243, 255);
     padding: 20px;
 }
 
@@ -99,7 +100,7 @@ ul>li {
 
 /* Символ корзины */
 .fa-trash-can {
-    color: red;
+    color: rgb(243, 98, 98);
 }
 
 /* Символ чекбокса */
